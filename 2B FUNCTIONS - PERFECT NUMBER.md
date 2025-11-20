@@ -22,11 +22,18 @@ To write a Python program to check if a number is a Perfect number using the con
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
-#Add your Code Here
+def result(a, b):
+    d = a % b
+    print(f"Modulo is {d}")
+
+a = int(input())
+b = int(input())
+result(a, b)
+
 
 ```
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/944b20cb-654e-49d5-8a95-203f9aeaa670)
 
 ### RESULT
+Thus the program to define a function that accepts two values and returns their modulo value has been implemented and executed successfully.
